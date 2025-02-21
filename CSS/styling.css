@@ -1,8 +1,6 @@
 body {
   background-color: #382344;
-}
-h1 {
-  text-aligncenter;
+  text-align: center;
   color: white;
   font-family: "Verdana", serif;
   font-size: 2em;
