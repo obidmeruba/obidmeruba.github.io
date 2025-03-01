@@ -1,24 +1,61 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obinna Eruba - CV</title>
-      <meta name="description" content="Digital CV">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="./CSS/styling.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div>
-      <h1>Obinna Eruba - Digital CV</h1>
-      <p>Welcome to <em>my</em> site</p>
+    <meta name="description" content="Digital CV">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-white text-xl font-bold">Obinna Eruba</h1>
+            <ul class="flex space-x-6">
+                <li class="relative dropdown">
+                    <a href="#" class="text-white hover:underline">Resume</a>
+                    <ul class="dropdown-menu absolute hidden bg-white shadow-md mt-2 py-2 rounded-md w-40">
+                        <li><a href="resume.html" class="block px-4 py-2 hover:bg-gray-200">View Resume</a></li>
+                    </ul>
+                </li>
+                <li class="relative dropdown">
+                    <a href="#" class="text-white hover:underline">Projects</a>
+                    <ul class="dropdown-menu absolute hidden bg-white shadow-md mt-2 py-2 rounded-md w-40">
+                        <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">DIGIT 100</a></li>
+                    </ul>
+                </li>
+                <li class="relative dropdown">
+                    <a href="#" class="text-white hover:underline">Hobbies</a>
+                    <ul class="dropdown-menu absolute hidden bg-white shadow-md mt-2 py-2 rounded-md w-40">
+                        <li><a href="https://pg-lang.com/" class="block px-4 py-2 hover:bg-gray-200">The GOAT</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="container mx-auto mt-8 p-6 bg-white shadow-md rounded-lg">
+        <h1 class="text-2xl font-bold">Obinna Eruba - Digital CV</h1>
+        <p class="mt-2 text-gray-700">Welcome to <em>my</em> site</p>
+        
+        <h2 class="text-xl font-semibold mt-6">Resume</h2>
+        <h3><a href="resume.html" class="text-blue-500 hover:underline">View My Resume</a></h3>
+        
+        <h2 class="text-xl font-semibold mt-6">Digital Projects</h2>
+        <h3 class="text-gray-700">DIGIT 100</h3>
+        
+        <h2 class="text-xl font-semibold mt-6">Hobbies</h2>
+        <h3><a href="https://pg-lang.com/" class="text-blue-500 hover:underline">The undisputed GOAT</a></h3>
+        
+        <img src="./images/gym.jpg" class="mt-6 w-full max-w-md rounded-lg shadow-lg" alt="Picture of the gym.">
     </div>
-    <h2>Resume</h2>
-      <h3><a href="resume.html">View My Resume</a></h3>
-    <br/>
-    <h2>Digital Projects</h2>
-      <h3>DIGIT 100</h3>
-    <h2>Hobbies</h2>
-      <h3><a href="https://pg-lang.com/">The undisputed goat</a></h3>
-    <img src="./images/gym.jpg" width="500px" alt="Picture of the gym.">
-  </body>
+</body>
 </html>
