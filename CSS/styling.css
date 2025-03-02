@@ -5,3 +5,59 @@ body {
   font-family: "Verdana", serif;
   font-size: 2em;
 }
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #2a1a35;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.nav li {
+  display: inline-block;
+  position: relative;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  color: white;
+  background-color: #2a1a35;
+  border-radius: 10px;
+}
+
+.nav a:hover {
+  background-color: #4c2f5a;
+}
+
+.dropdown {
+  display: block; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #4c2f5a;
+  min-width: 200px;
+  padding: 0;
+  list-style-type: none;
+  border-radius: 10px;
+}
+
+.dropdown li {
+  display: block;
+}
+
+.dropdown li a {
+  padding: 10px 15px;
+  background-color: #4c2f5a;
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+}
+
+.dropdown li a:hover {
+  background-color: #6a3e7a;
+}
