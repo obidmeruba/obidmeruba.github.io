@@ -49,6 +49,10 @@ body {
   border-radius: 10px;
 }
 
+.dropdown-section:hover > .dropdown {
+    display: block;
+}
+
 .dropdown li {
   display: block;
 }
