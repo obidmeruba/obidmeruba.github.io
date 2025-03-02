@@ -19,7 +19,6 @@ body {
 }
 
 .nav li {
-  display: inline-block;
   position: relative;
 }
 
@@ -47,10 +46,11 @@ body {
   padding: 0;
   list-style-type: none;
   border-radius: 10px;
+  z-index: 1; 
 }
 
-.dropdown-section:hover > .dropdown {
-    display: block;
+.dropdown-section:hover .dropdown {
+  display: block;
 }
 
 .dropdown li {
@@ -64,7 +64,7 @@ body {
   text-decoration: none;
   display: block;
   border-radius: 5px;
-  transition: background 0.3s
+  transition: background 0.3s;
 }
 
 .dropdown li a:hover {
