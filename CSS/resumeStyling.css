@@ -51,11 +51,13 @@ h3 {
   margin: 0;
   background-color: #2a1a35;
   display: flex;
+  position: fixed;
+  gap: 20px;
   border-radius: 10px;
 }
 
 .nav li {
-  position: relative;
+  display: inline;
 }
 
 .nav a {
@@ -70,6 +72,7 @@ h3 {
 
 .nav a:hover {
   background-color: #4c2f5a;
+  border-radius: 5px;
 }
 
 .dropdown {
@@ -86,7 +89,7 @@ h3 {
 }
 
 .dropdown-section:hover .dropdown {
-  display: block;
+  position: relative;
 }
 
 .dropdown li {
