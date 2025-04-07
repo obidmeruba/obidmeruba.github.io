@@ -1,10 +1,24 @@
+The Project Gutenberg eBook of Beasts and Super-Beasts
+This ebook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this ebook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
+Title: Beasts and Super-Beasts
 
+Author: Saki
+
+Release date: May 1, 1995 [eBook #269]
+Most recently updated: December 26, 2011
+
+Language: English
+
+Credits: Transcribed from the 1914 John Lane, The Bodley Head edition by David Price
+
+*** START OF THE PROJECT GUTENBERG EBOOK BEASTS AND SUPER-BEASTS ***
+Transcribed from the 1914 John Lane, The Bodley Head edition by David Price, email ccx074@pglaf.org
 
 BEASTS AND
 SUPER-BEASTS
 By H. H. MUNRO (“SAKI”)
 
-
+ 
 LONDON: JOHN LANE THE BODLEY HEAD
 NEW YORK: JOHN LANE COMPANY
 TORONTO: BELL & COCKBURN  MCMXIV
@@ -2686,3 +2700,5 @@ For the sum of ten shillings each Miss Strubble acquired the drawings of the cam
 “No good.  It is too big to carry to Stolpmünde.  I burn it.”
 
 In time he will be forgotten, but at present Knopfschrank is almost as sore a subject as Sledonti with some of the frequenters of the Nuremberg Restaurant, Owl Street, Soho.
+
+*** END ***
